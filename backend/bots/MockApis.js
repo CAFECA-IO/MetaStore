@@ -24,8 +24,11 @@ class MockApis extends Bot {
     return this;
   }
 
-  async mintNFT({ body = {} }) {
+  async mintNFT({ body = {}, headers }) {
     let result;
+    this.logger.debug(new Date());
+    this.logger.debug(headers);
+    this.logger.debug(body);
     if(!SmartContract.isEthereumAddress(body.address)) {
       result = new ResponseFormat({
         code: Codes.INVALID_ADDRESS,

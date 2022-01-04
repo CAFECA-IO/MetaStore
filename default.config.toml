@@ -5,7 +5,7 @@ title = "MetaStore"
 [base]
 folder = "MetaStore"
 static = "./build/"
-debug = false
+debug = true
 
 [database]
 
