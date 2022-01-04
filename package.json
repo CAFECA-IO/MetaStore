@@ -1,0 +1,60 @@
+{
+  "name": "metastore",
+  "version": "0.9.0",
+  "description": "Meta Store - Everythings is Goods on Blockchain",
+  "main": "bin/main.js",
+  "scripts": {
+    "start": "bin/main.js",
+    "deploy": "pm2 deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAFECA-IO/MetaStore.git"
+  },
+  "keywords": [
+    "frontend",
+    "backend",
+    "framework"
+  ],
+  "author": "CAFECA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CAFECA-IO/MetaStore/issues"
+  },
+  "homepage": "https://metastore.tidebit.network/",
+  "dependencies": {
+    "@cafeca/lunar": "^0.3.6",
+    "@emotion/styled": "^11.6.0",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.5",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.5.0",
+    "apexcharts": "^3.30.0",
+    "axios": "^0.24.0",
+    "bignumber.js": "^9.0.1",
+    "colors": "^1.4.0",
+    "command-line-args": "^5.0.2",
+    "dvalue": "^1.0.20",
+    "ecrequest": "^1.1.5",
+    "i18n": "^0.13.3",
+    "jsonwebtoken": "^8.5.1",
+    "keccak256": "^1.0.3",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "koa-session": "^6.2.0",
+    "koa-static": "^5.0.0",
+    "litepicker": "^2.0.11",
+    "ncp": "^2.0.0",
+    "pem": "^1.14.4",
+    "qrcode.react": "^1.0.1",
+    "spdy": "^4.0.2",
+    "sqlite3": "^5.0.2",
+    "toml": "^3.0.0",
+    "ws": "^8.2.1"
+  },
+  "devDependencies": {}
+}

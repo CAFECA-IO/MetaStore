@@ -1,0 +1,17 @@
+# MetaStore Default Config
+
+title = "MetaStore"
+
+[base]
+folder = "MetaStore"
+static = "./build/"
+debug = false
+
+[database]
+
+
+[api]
+pathname = [
+  "get | /version | Static.Utils.readPackageInfo",
+  "post | /api/v1/store/:storeID/nft/mint | Bot.MockApis.mintNFT"
+]
