@@ -4,14 +4,14 @@ Physical Assets and Crypto Assets trading platform
 ## Ropsten
 AWS
 t2.xlarge
-200 GP2
+500GB GP2
 
 ## MetaStore Chain
 AWS
 t2.medium
+200GB GP2
 
-
-##
+## Main
 gp3	1000 GiB	6000	300
 
 ## Future
