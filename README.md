@@ -13,6 +13,8 @@ t2.medium
 
 ## Main
 gp3	1000 GiB	6000	300
+Load Balance
+Auto Scaling
 
 ## Future
 K8s image
