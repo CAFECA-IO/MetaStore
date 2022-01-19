@@ -13,5 +13,18 @@ debug = true
 [api]
 pathname = [
   "get | /, /version | Static.Utils.readPackageInfo",
-  "post | /api/v1/store/:storeID/nft/mint | Bot.MockApis.mintNFT"
+  "post | /api/v1/contentProvider | Bot.MockApis.mintNFT",
+  "post | /api/v1/contentProvider/:cpID/reset | Bot.MockApis.mintNFT",
+  "get | /api/v1/job/:jID | Bot.MockApis.mintNFT",
+  "post | /api/v1/game | Bot.MockApis.mintNFT",
+  "post | /api/v1/user | Bot.MockApis.mintNFT",
+  "get | /api/v1/job/:jID | Bot.MockApis.mintNFT",
+  "get | /api/v1/user | Bot.MockApis.mintNFT",
+  "get | /api/v1/user/:userID | Bot.MockApis.mintNFT",
+  "post | /api/v1/game/:gameID/erc20/transfer | Bot.MockApis.mintNFT",
+  "post | /api/v1/game/:gameID/nft/mint | Bot.MockApis.mintNFT",
+  "get | /api/v1/game/:gameID/nft/:nftID/detailD | Bot.MockApis.mintNFT",
+  "post | /api/v1/game/:gameID/nft/:nftID/transfer | Bot.MockApis.mintNFT",
+  "get | /api/v1/game/:gameID/nft/:nftID/owner/:userID | Bot.MockApis.mintNFT",
+  "post | /api/v1/game/:gameID/nft/:nftID/burn | Bot.MockApis.mintNFT"
 ]
